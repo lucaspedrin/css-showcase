@@ -32,7 +32,7 @@ This project showcases my journey through CSS3, moving from **basic styling** to
 
 ### 🌐 Live Demo
 
-The easiest way to see this project in action is through **GitHub Pages**:
+The easiest way to see this project in action is through **GitHub Pages**:  
 [👉 Click here to view the live website](https://lucaspedrin.github.io/css-showcase/)
 
 or
@@ -41,7 +41,7 @@ or
 
 If you prefer to run it on your machine:
 
-1. **Clone the repository**
+* **Clone the repository:**
 
 ```bash
 git clone https://github.com/lucaspedrin/place-holder
