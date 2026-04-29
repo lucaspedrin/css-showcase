@@ -1,0 +1,862 @@
+/* --- GENERAL PAGE SETTINGS --- */
+
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3 {
+    color: #ffff;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p, ol, ul{
+    color: white;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* --- HOME PAGE --- */
+
+#indexbody h1 {
+    text-align: center;
+}
+
+#indexbody main p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- FONTS PAGE --- */
+
+#fonth1 {
+    color: rgb(87, 230, 87);
+}
+
+#fontp1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: hsl(140, 72%, 45%);
+}
+
+#fontp2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(90, 72%, 45%);
+}
+
+#fontp3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    color: hsl(120, 100%, 25%);
+}
+
+/* --- BORDERS PAGE --- */
+
+#tborder{
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(256, 81%, 47%);
+    border-radius: 20px;
+}
+
+#pborder{
+    border-top: solid 2px hsl(140, 84%, 48%);
+    border-left: dotted 2px hsl(0, 77%, 47%);
+    border-right: dotted 2px rgb(245, 215, 45);
+    border-bottom: solid 2px hsl(170, 83%, 46%);
+}
+
+/* --- SHADOWS PAGE --- */
+
+#tshadow, #pshadow{
+    text-shadow: 3px 3px 2px hsl(263, 86%, 52%), -3px -3px 2px hsl(236, 77%, 47%);
+}
+
+/* --- MARGINS PAGE --- */
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(263, 78%, 27%);
+    box-shadow: 3px 2px 1px hsl(266, 91%, 22%);
+}
+
+.mbox{
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(24, 26, 24);
+}
+
+#mbox1{
+    background-color: hsl(200, 100%, 30%);
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+#mbox2{
+    background-color: hsl(100, 100%, 30%);
+    margin: auto;
+    position: relative;
+    left: 30px;
+}
+
+/* --- FLOAT PAGE --- */
+
+#fbody{
+    display: flow-root;
+    border: solid 3px white;
+    padding: 5px;
+}
+
+#ftitle{
+    margin: 0px;
+}
+
+#fimg1{
+    float: left;
+    margin-right: 20px;
+}
+
+#fimg2{
+    float: right;
+    margin-left: 20px;
+}
+
+/* --- OVERFLOW PAGE --- */
+
+.ofbox{
+    border: solid 2px white;
+    height: 120px;
+    margin-bottom: 10px;
+    display: flow-root;
+}
+
+.ofbox p{
+    margin: 0px;
+}
+
+#ofbox1{
+    overflow: clip;
+    overflow-clip-margin: 10px;
+}
+
+#ofbox2{
+    overflow: hidden;
+}
+
+#ofbox3{
+    overflow: auto;
+}
+
+/* --- DISPLAYS PAGE --- */
+
+#dboxb{
+    background-color: hsl(0, 93%, 54%);
+    text-align: center;
+    color: white;
+    border: solid hsl(0, 83%, 25%);
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#dboxi{
+    color: white;
+    border: solid hsl(120, 90%, 27%);
+    background-color: hsl(120, 89%, 35%);
+}
+
+#dboxib{
+    background-color: hsl(240, 93%, 56%);
+    text-align: center;
+    color: white;
+    border: solid hsl(229, 92%, 21%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+/* --- DIMENSIONS PAGE --- */
+
+.dmcontainer {
+    box-sizing: border-box;
+    border: solid 2px hsl(200, 100%, 50%);
+    background-color: hsl(200, 30%, 5%);
+}
+
+.dmbox {
+    box-sizing: border-box;
+    border: solid 1px white;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+#dmbox1 {
+    background-color: hsl(200, 30%, 10%);
+    margin-right: auto;
+}
+
+#dmbox2 {
+    background-color: hsl(200, 30%, 20%);
+    margin-left: auto;
+}
+
+#dmbox3 {
+    background-color: hsl(200, 30%, 35%);
+    margin-right: auto;
+    width: 70%;
+}
+
+#dmbox4 {
+    background-color: hsl(200, 30%, 50%);
+    margin-left: auto;
+    width: 30%;
+}
+
+/* --- POSITIONS PAGE --- */
+
+#ptbox1 {
+    text-align: center;
+    background-color: #0B132B;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#ptbox2 {
+    text-align: center;
+    background-color: #1D3557;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    top: 10px;
+
+}
+
+#ptbox3 {
+    text-align: center;
+    background-color: #457b9d;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#ptbox4 {
+    text-align: center;
+    background-color: #a8dadc;
+    width: 200px;
+    height: 200px;
+    position: static;
+}
+
+#ptbox5 {
+    text-align: center;
+    background-color: #f1faee;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+}
+
+/* --- BACKGROUND IMAGE PAGE --- */
+
+.bitext h1{
+    background-color: rgba(62, 39, 35, 0.7);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bitext p {
+    background-color: rgba(62, 39, 35, 0.7);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#bibody {
+    background-image: url(images/hina_sayo_wallpaper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* --- COMBINATORS PAGE --- */
+
+#cbcontainer {
+    border: 3px solid white;
+}
+
+#cbcontainer p {
+    background-color: #0B132B;
+}
+
+#cbcontainer > p {
+    border: 1px solid white;
+}
+
+#cbcontainer ~ p {
+    background-color: #0B132B;
+}
+
+#cbcontainer + p {
+    border: 1px solid white;
+}
+
+/* --- PSEUDO-CLASSES PAGE--- */
+
+#pca:hover {
+    font-size: 1.5em;
+}
+
+#pca:link {
+    color: #a8dadc;
+}
+
+#pca:visited {
+    color: #1D3557;
+}
+
+#pcul li:not(:hover) {
+    background-color: #1D3557;
+}
+
+#pcul li:hover {
+    background-color: #0B132B;
+}
+
+#pcbutton:hover {
+    color: hsl(200, 39%, 44%);
+    font-size: 1.5em;
+}
+
+#pcbutton:active {
+    color: hsl(340, 39%, 44%);
+}
+
+#pcol li:nth-child(odd) {
+    background-color: #457b9d;
+}
+
+#pcol li:nth-child(3n) {
+    background-color: #1D3557;
+}
+
+#pcdiv h3 {
+    text-align: center;
+}
+
+#pcdiv p {
+    background-color: #1D3557;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    display: none;
+}
+
+#pcdiv:hover p {
+    display: block;
+}
+
+/* --- PSEUDO-ELEMENTS PAGE --- */
+
+#peh1::first-letter {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #4607f3;
+}
+
+#pep::first-line {
+    background-color: #4607f3;
+}
+#pep::selection {
+    color: greenyellow;
+}
+
+#catstate li::marker{
+    content: "💫 ";
+    font-style: normal;
+}
+
+#catangry::after {
+    content: " 😾";
+    font-style: normal;
+}
+
+#cathappy::after {
+    content: " 😺";
+    font-style: normal;
+}
+
+#catsad::after {
+    content: " 😿";
+    font-style: normal;
+}
+
+/* --- DROPDOWN MENU PAGE --- */
+
+.dropdown button{
+    background-color: #1D3557;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 1.5em;
+}
+
+.dropdown a{
+    display: block;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dropdown .content{
+    background-color: #1D3557;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 2px 2px 5px #0B132B;
+}
+
+.dropdown:not(:hover).dropdown .content{
+    display: none;
+}
+
+.dropdown:hover button{
+    background-color: #0B132B;
+    color: #1D3557;
+}
+
+.dropdown a:hover{
+    background-color: #0B132B;
+    color: #1D3557;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* --- NAVIGATION BAR PAGE --- */
+
+.navbar ul{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background-color: #1D3557;
+    border-radius: 3px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li{
+    padding: 10px;
+    display: inline-block;
+}
+
+.navbar li:hover {
+    background-color: #0B132B;
+    border-radius: 3px;
+}
+
+/* --- WEBSITE LAYOUT PAGE --- */
+
+.wlbody * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wlbody {
+    margin: 0px;
+}
+
+.wlbody header {
+    padding: 30px;
+    text-align: center;
+    background-color: #05080e;
+}
+
+.wlbody nav {
+    background-color: #0b132b31;
+}
+
+.wlbody nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wlbody nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width: 22%;
+}
+
+.wlbody nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.wlbody nav li:hover {
+    background-color: #04081149;
+    border-radius: 5px;
+}
+
+.wlbody main {
+    display: inline-block;
+    background-color: #05080e2d;
+    vertical-align: top;
+}
+
+.wlbody main p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.wlbody aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+.wlbody section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+.wlbody article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+.wlbody footer {
+    text-align: center;
+    background-color: #05080e;
+    display: block;
+    clear: both;
+    padding: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .wlbody aside, .wlbody section, .wlbody article {
+        width: 100%;
+    }
+}
+
+/* --- IMAGE GALLERY PAGE --- */
+
+.gallery {
+    display: inline-block;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+
+.gallery img{
+    width: 300px;
+}
+.gallery a {
+    text-decoration: none;
+}
+
+.description {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery:hover {
+    border: 1px solid gray;
+}
+.gallery:hover .description{
+    color: gray;
+}
+
+/* --- ICONS PAGE --- */
+
+#icons {
+    border: solid white 1px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.material-symbols-outlined.dark a {
+    text-decoration: none;
+    color: white;
+}
+
+#homeicon a:hover, #searchicon a:hover, #favoriteicon a:hover, #settingsicon a:hover {
+    color: hsl(0, 0%, 50%);
+}
+
+/* --- FLEXBOX PAGE --- */
+
+.flexboxcontainer {
+    border: 2px solid white;
+    padding: 5px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.flexboxbox {
+    border: white 2px solid;
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#flexboxbox1 {
+    background-color: hsl(6, 100%, 50%);
+    order: 1;
+}
+
+#flexboxbox2 {
+    background-color: hsl(41, 100%, 50%);
+    order: 2;
+}
+
+#flexboxbox3 {
+    background-color: hsl(98, 100%, 50%);
+    order: 3;
+}
+
+#flexboxbox4 {
+    background-color: hsl(197, 100%, 50%);
+    order: 4;
+}
+
+/* --- TRANSFORM PAGE --- */
+
+.tcontainer {
+    border: white 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 120px;
+}
+
+.tboxwrapper {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed white;
+    
+}
+
+.tbox {
+    border: white 1px solid;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 3px;
+}
+
+#tbox1 {
+    background-color: hsl(125, 90%, 50%);
+    transform: rotateZ(45deg);
+}
+
+#tbox2 {
+    background-color: hsl(150, 90%, 50%);
+    transform: scale(0.7, 1.6);
+}
+
+#tbox3 {
+    background-color: hsl(175, 90%, 50%);
+    transform: skewX(45deg);
+}
+
+/* --- ANIMATIONS PAGE --- */
+
+.animationbox {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
+
+#animationbox1 {
+    background-color: hsl(0, 90%, 50%);
+    animation: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+#animationbox2 {
+    background-color: hsl(120, 90%, 25%);
+    animation: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+#animationbox3 {
+    background-color: hsl(240, 90%, 50%);
+    animation: fade-in;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+#animationbox4 {
+    background-color: hsl(60, 90%, 50%);
+    animation: glow;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    to{transform: rotate(90deg);}
+}
+
+@keyframes slide{
+    50%{transform: translateX(100px);}
+}
+
+@keyframes fade-in{
+    from{opacity: 0;}
+}
+
+@keyframes glow{
+    0%{background-color: hsl(60, 90%, 50%);}
+    20%{background-color: hsl(100, 90%, 50%);}
+    40%{background-color: hsl(140, 90%, 50%);}
+    60%{background-color: hsl(180, 90%, 50%);}
+    80%{background-color: hsl(220, 90%, 50%);}
+    100%{background-color: hsl(260, 90%, 50%);}
+}
+
+/* --- FINAL PAGE --- */
+
+#fp-body * {
+    margin: 0;
+    padding: 0;
+}
+
+#fp-body {
+    border: 3px white solid;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+#fp-body header {
+    border: 2px dashed white;
+}
+
+#fp-body header h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    animation: falling 2s ease-out;
+}
+
+#fp-body main {
+    border: 2px dashed white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#fp-body main p {
+    text-align: center;
+    animation: fade-in 3s ease-out;
+}
+
+#fp-body footer {
+    border: 2px dashed white;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+#fp-body footer button {
+    animation: raising 1.3s ease-out;
+    border: 1px dashed black;
+}
+
+#fp-body footer img {
+    order: 2;
+    max-height: 200px;
+    max-width: 100%;
+    animation: raising 2s ease-out;
+}
+
+@keyframes falling {
+    from {transform: translateY(-100px);}
+    to {transform: translateY(0);}
+}
+
+@keyframes raising {
+    from {transform: translateY(230px);}
+    to {transform: translateY(0);}
+}
