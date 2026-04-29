@@ -6,7 +6,7 @@
 
 ## 🎨 About the Project
 
-This project showcases my journey through CSS3, moving from **basic styling** to **advanced layouts** and **animations**. It represents a significant evolution from my initial HTML-only studies, focusing on **responsiveness** and **user experience**.
+This project showcases my journey through CSS3, moving from **basic styling** to **advanced layouts** and **animations**. It represents a significant evolution from my [initial HTML-only studies](https://github.com/lucaspedrin/html-showcase), focusing on **responsiveness** and **user experience**.
 
 ## 📂 Featured Content
 
@@ -21,19 +21,19 @@ This project showcases my journey through CSS3, moving from **basic styling** to
 * Typography and **Local Fonts** integration.
 
 ## 🛠️ Tools
-* [VS Code](https://code.visualstudio.com/) - My main Code Editor
-* HTML5 - Markup language used for the structure.
-* CSS3 - Style sheet language used for the visual design.
-* Chromium-based browser - For primary desktop testing.
-* Firefox-based browser - For cross-browser compatibility checks.
-* DevTools - For mobile responsiveness testing and debugging.
+* [**VS Code**](https://code.visualstudio.com/) - My main Code Editor
+* **HTML5** - Markup language used for the structure.
+* **CSS3** - Style sheet language used for the visual design.
+* **Chromium-based browser** - For primary desktop testing.
+* **Firefox-based browser** - For cross-browser compatibility checks.
+* **DevTools** - For mobile responsiveness testing and debugging.
 
 ## 🧑‍💻 Instructions
 
 ### 🌐 Live Demo
 
 The easiest way to see this project in action is through **GitHub Pages**:
-[👉 Click here to view the live website](https://lucaspedrin.github.io/place-holder/)
+[👉 Click here to view the live website](https://lucaspedrin.github.io/css-showcase/)
 
 or
 
